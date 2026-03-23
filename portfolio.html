@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="easteregg.js" defer></script>
+    <script src="portfolio.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -24,71 +26,11 @@
     <main>
         <section id="portfolio">
             <h1>Portfolio</h1>
-            <article class ="projekt1">
-                <h2>Banken</h2>
-                <img src="img/bank.png" alt="">
-                <a href="#projekt1">Mer info</a>
-            </article>
-            <article class="projekt2">
-                <h2>Biblioteket</h2>
-                <img src="img/bibliotek.jpg" alt="">
-                <a href="#projekt2">Mer info</a>
-            </article>
-            <article class="projekt3">
-                <h2>Restaurangen</h2>
-                <img src="img/restaurang.jpg" alt="">
-                <a href="#projekt3">Mer info</a>
-            </article>
-        </section>
+            
+            <p id="loading">Loading projects...</p>
 
-        <div id="projekt1" class="modal">
-            <div class="modal-content">
-                <h2>Banken</h2>
-                <p>
-                    Detta projekt utvecklades i C# som
-                    en gruppuppgift. Programmet simulerar
-                    ett enkelt banksystem där användaren 
-                    kan bland annat skapa konton, sätta in 
-                    och ta ut pengar, se sitt aktuella saldo 
-                    och öppna konto i en annan valuta.
-                </p>
-                <p>
-                    Projektet fokuserade på objektorienterad 
-                    programmering, strukturering av kod
-                    och samarbete i ett utvecklingsteam.
-                </p>
-                <a href="#portfolio">Stäng</a>
-            </div>
-        </div>
-        <div id="projekt2" class="modal">
-            <div class="modal-content">
-                <h2>Biblioteket</h2>
-                <p>
-                    Ett bibliotekssystem utvecklat i C# där användaren kan hantera en samling
-                    av böcker. Programmet gör det möjligt att lägga till nya böcker, visa
-                    befintliga böcker samt ta bort eller uppdatera information.
-                </p>
-                <p>
-                    Projektet byggdes med fokus på objektorienterad programmering och
-                    strukturerad koddesign.
-                </p>
-                <a href="#portfolio">Stäng</a>
-            </div>
-        </div>
-        <div id="projekt3" class="modal">
-            <div class="modal-content">
-                <h2>Restaurangen</h2>
-                <p>
-                    Ett projekt där en restaurangmiljö användes som tema för att skapa ett
-                    program eller system som hanterar information kopplad till en restaurang.
-                </p>
-                <p>
-                    Projektet fokuserade på programmeringslogik, strukturering av data
-                    samt att bygga ett fungerande program i C#.
-                </p>
-                <a href="#portfolio">Stäng</a>
-            </div>
-        </div>
+            <div id="projects-container"></div>
+        </section>
     </main>
     <footer>
           <div class="footer">
@@ -106,5 +48,12 @@
             </ul>
         </div>
     </footer>
+
+    <div id="secret-modal" class="modal">
+        <div class="modal-content">
+            <img src="img/funny-häst.jpg" alt="Easter egg">
+            <a href="#">Stäng</a>
+        </div>
+    </div>
 </body>
 </html>

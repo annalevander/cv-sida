@@ -277,7 +277,7 @@ li a:hover {
   color: grey;
 }
 
-#portfolio{
+#projects-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
@@ -289,7 +289,7 @@ li a:hover {
     text-align: center;
 }
 
-#portfolio article{
+#projects-container article{
     background-color: rgb(255, 208, 240);
     padding: 1rem;
     border-radius: 10px;
@@ -331,7 +331,7 @@ li a:hover {
 
 @media (max-width: 600px){
 
-    #portfolio{
+    #projects-container{
         grid-template-columns: 1fr;
     }
     #portfolio h1{
@@ -341,13 +341,13 @@ li a:hover {
     #portfolio article{
         width: 100%;
     }
-}
-
-@media (max-width: 600px){
 
     .contact{
         max-width: 90%;
         padding: 1.5rem;
     }
+}
 
+.modal-content img{
+  max-width: 450px;
 }

@@ -1,0 +1,51 @@
+{
+    "intro": {
+        "name": "Anna Levander",
+        "role": ".NET Developer Student",
+        "profile": ".NET developer student specializing in C# and object-oriented programming. Currently studying at a higher vocational program with graduation in 2027. Seeking an international internship to gain experience in professional software development."
+    },
+
+    "experience": [
+    {
+        "id": 1,
+        "title": "Personal Assistant",
+        "location": "Varberg, Sweden",
+        "period": "March 2025 - Present",
+        "description": "Providing daily support in a role that requires responsibility, adaptability and strong interpersonal skills."
+    },
+    {
+        "id": 2,
+        "title": "Restaurant Server",
+        "location": "Varberg, Sweden",
+        "period": "2020 - 2024",
+        "description": "Worked in a fast-paced environment providing customer service and collaborating with team members during busy shifts."
+    }
+    ],
+
+    "skills": [
+        "C#",
+        ".NET",
+        "ASP.NET",
+        "HTML & CSS",
+        "SQL",
+        "Git"
+        ],
+
+    "languages": [
+        "Swedish - Native",
+        "English - Fluent"
+    ],
+
+    "education": [
+        {
+            "id": 1,
+            "title": ".NET Developer - Higher Vocational Education",
+            "description": "C# and .NET Development, Object-Oriented Programming, Agile Software Development, Database Development and Administration, Frontend Web Development, Advanced .NET Development, ASP.NET"
+        },
+        {
+            "id": 2,
+            "title": "Upper Secondary Education (High School Diploma)",
+            "description": "Social science programme (Behavioral science) - Specialization in Psychology"
+        }
+    ]
+}
